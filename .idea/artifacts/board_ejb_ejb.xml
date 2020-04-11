@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="board-ejb:ejb">
+    <output-path>$PROJECT_DIR$/board-ejb/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>board-ejb</module>
+        <packaging>ejb</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="board-ejb.jar">
+      <element id="artifact" artifact-name="board-ejb:ejb exploded" />
+    </root>
+  </artifact>
+</component>

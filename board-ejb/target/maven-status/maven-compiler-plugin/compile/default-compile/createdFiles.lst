@@ -1,0 +1,5 @@
+com\tsystems\javaschool\util\Resources.class
+com\tsystems\javaschool\model\Member.class
+com\tsystems\javaschool\service\MemberRegistration.class
+com\tsystems\javaschool\data\MemberListProducer.class
+com\tsystems\javaschool\data\MemberRepository.class

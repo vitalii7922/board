@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="board-ear:ear">
+    <output-path>$PROJECT_DIR$/board-ear/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>board-ear</module>
+        <packaging>ear</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="board-ear.ear">
+      <element id="artifact" artifact-name="board-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="board-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/board-ear/target/board-ear</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>board-ear</module>
+        <packaging>ear</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="board-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/board-ear/target/board-ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/board-ear/src/main/application" />
+      <element id="archive" name="board-web.war">
+        <element id="artifact" artifact-name="board-web:war exploded" />
+      </element>
+      <element id="archive" name="board-ejb.jar">
+        <element id="artifact" artifact-name="board-ejb:ejb exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/org/modelmapper/modelmapper/2.3.6/modelmapper-2.3.6.jar" output-file-name="modelmapper.jar" />
+      </element>
+    </root>
+  </artifact>
+</component>

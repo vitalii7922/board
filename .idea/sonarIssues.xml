@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$PROJECT_DIR$/../IdeaProjects/railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/config/ModelMap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../IdeaProjects/railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/dao/StationDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-ear/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/config/ModelMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/converter/ScheduleConverter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/converter/TimeConverter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/data/AbstractDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/data/ScheduleDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/data/StationDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/data/TrainDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/dto/ScheduleDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/dto/TrainDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/model/Member.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/model/Schedule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/service/ScheduleService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/util/Resources.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/resources/META-INF/persistence.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-web/src/main/java/com/tsystems/javaschool/controller/ScheduleController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-web/src/main/java/com/tsystems/javaschool/rest/MemberResourceRESTService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-web/src/main/java/com/tsystems/javaschool/util/WebResources.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
