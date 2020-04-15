@@ -13,6 +13,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/board-ear/pom.xml">
           <value>
             <set />
@@ -78,6 +83,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/sender/Receiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/service/ScheduleService.java">
           <value>
             <set />
@@ -109,6 +119,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/sender/Receiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/test/java/com/tsystems/javaschool/test/TrainServiceTest.java">
           <value>
             <set />
           </value>

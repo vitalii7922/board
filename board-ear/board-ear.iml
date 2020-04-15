@@ -19,6 +19,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="board-web" />
     <orderEntry type="module" module-name="board-ejb" />
+    <orderEntry type="library" name="Maven: org.apache.activemq:activemq-all:5.15.3" level="project" />
+    <orderEntry type="library" name="Maven: javax.jms:jms:1.1" level="project" />
     <orderEntry type="library" name="Maven: org.modelmapper:modelmapper:2.3.6" level="project" />
   </component>
   <component name="sonarModuleSettings">
