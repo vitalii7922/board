@@ -3,6 +3,21 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/db/1027f326-8fb2-42b5-8762-3369f015d30a/console.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../IdeaProjects/railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/config/ModelMap.java">
           <value>
             <set />
@@ -108,7 +123,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/board-web/src/main/java/com/tsystems/javaschool/controller/ScheduleRESTService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/board-web/src/main/java/com/tsystems/javaschool/rest/MemberResourceRESTService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-web/src/main/java/com/tsystems/javaschool/rest/ScheduleRESTService.java">
           <value>
             <set />
           </value>
@@ -128,12 +153,242 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/converter/ScheduleConverter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/converter/TrainConverter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/dao/PassengerDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/dao/StationDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/dao/TicketDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/dao/TrainDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/domain/Train.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/dto/PassengerDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/dto/PassengerTrainDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/dto/ScheduleDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/dto/TrainDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/sender/Listener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/sender/Receiver.java">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/sender/Sender.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/service/PassengerService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/service/ScheduleService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/service/StationService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/service/TicketService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/service/TrainService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/validator/PassengerValidator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/validator/TicketValidator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/validator/TrainPropertiesValidator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/validator/TrainTicketValidator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/validator/TrainValidator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/validator/TripsValidator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/validator/Verification.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/web/GlobalController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/web/LoginController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/web/PassengerController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/web/ScheduleController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/web/StationController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/web/TicketController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/web/TrainController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/web/TrainScheduleController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/resources/META-INF/persistence.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/test/java/com/tsystems/javaschool/test/TrainServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/webapp/WEB-INF/applicationContext.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/webapp/WEB-INF/web.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/webapp/index.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/webapp/passenger.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/webapp/resources/login.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/webapp/resources/menu.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/webapp/resources/trains.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/webapp/schedule.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/webapp/train.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/webapp/trains.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/webapp/trips.jsp">
           <value>
             <set />
           </value>
