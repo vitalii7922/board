@@ -1,7 +1,0 @@
-
-s
-java:S2629ù"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.( è‘≠
-∞
-java:S1130á"ôRemove the declaration of thrown exception 'javax.validation.ConstraintViolationException' which is a subclass of 'javax.validation.ValidationException'.(ÛßÈ3
-Ö
-java:S1130á"oRemove the declaration of thrown exception 'javax.validation.ValidationException' which is a runtime exception.(ÛßÈ3

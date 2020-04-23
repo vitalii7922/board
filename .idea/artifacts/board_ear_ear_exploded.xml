@@ -22,8 +22,13 @@
       </element>
       <element id="directory" name="lib">
         <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.3/activemq-all-5.15.3.jar" output-file-name="activemq-all.jar" />
-        <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/jms/jms/1.1/jms-1.1.jar" output-file-name="jms.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar" output-file-name="javax.jms-api.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar" output-file-name="gson.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/myfaces/core/myfaces-api/2.3.6/myfaces-api-2.3.6.jar" output-file-name="myfaces-api.jar" />
         <element id="file-copy" path="$MAVEN_REPOSITORY$/org/modelmapper/modelmapper/2.3.6/modelmapper-2.3.6.jar" output-file-name="modelmapper.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar" output-file-name="jackson-databind.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0.jar" output-file-name="jackson-annotations.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.jar" output-file-name="jackson-core.jar" />
       </element>
     </root>
   </artifact>

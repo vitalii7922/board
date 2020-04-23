@@ -58,8 +58,8 @@
         </dependency>
         <dependency>
             <groupId>javax.jms</groupId>
-            <artifactId>jms</artifactId>
-            <version>1.1</version>
+            <artifactId>javax.jms-api</artifactId>
+            <version>2.0.1</version>
         </dependency>
 
         <!-- Import the CDI API, we use provided scope as the API is included in JBoss WildFly -->
@@ -67,6 +67,12 @@
             <groupId>javax.enterprise</groupId>
             <artifactId>cdi-api</artifactId>
             <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.6</version>
         </dependency>
 
         <!-- Import the JPA API, we use provided scope as the API is included in JBoss WildFly -->
@@ -101,6 +107,12 @@
             <artifactId>arquillian-junit-container</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.myfaces.core</groupId>
+            <artifactId>myfaces-api</artifactId>
+            <version>2.3.6</version>
+        </dependency>
       
         <dependency>
             <groupId>org.jboss.arquillian.protocol</groupId>
@@ -112,6 +124,12 @@
             <groupId>org.modelmapper</groupId>
             <artifactId>modelmapper</artifactId>
             <version>2.3.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.10.0</version>
+            <scope>compile</scope>
         </dependency>
 
     </dependencies>

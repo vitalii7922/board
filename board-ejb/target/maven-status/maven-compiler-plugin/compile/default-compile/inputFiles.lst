@@ -1,5 +1,8 @@
-C:\Users\nefed\board\board-ejb\src\main\java\com\tsystems\javaschool\model\Member.java
-C:\Users\nefed\board\board-ejb\src\main\java\com\tsystems\javaschool\data\MemberListProducer.java
-C:\Users\nefed\board\board-ejb\src\main\java\com\tsystems\javaschool\service\MemberRegistration.java
-C:\Users\nefed\board\board-ejb\src\main\java\com\tsystems\javaschool\data\MemberRepository.java
-C:\Users\nefed\board\board-ejb\src\main\java\com\tsystems\javaschool\util\Resources.java
+C:\Users\nefed\IdeaProjects\board\board-ejb\src\main\java\com\tsystems\javaschool\receiver\Receiver.java
+C:\Users\nefed\IdeaProjects\board\board-ejb\src\main\java\com\tsystems\javaschool\service\StationService.java
+C:\Users\nefed\IdeaProjects\board\board-ejb\src\main\java\com\tsystems\javaschool\dto\ScheduleDto.java
+C:\Users\nefed\IdeaProjects\board\board-ejb\src\main\java\com\tsystems\javaschool\receiver\Listener.java
+C:\Users\nefed\IdeaProjects\board\board-ejb\src\main\java\com\tsystems\javaschool\service\ScheduleService.java
+C:\Users\nefed\IdeaProjects\board\board-ejb\src\main\java\com\tsystems\javaschool\data\ScheduleBean.java
+C:\Users\nefed\IdeaProjects\board\board-ejb\src\main\java\com\tsystems\javaschool\data\StationBean.java
+C:\Users\nefed\IdeaProjects\board\board-ejb\src\main\java\com\tsystems\javaschool\dto\StationDto.java

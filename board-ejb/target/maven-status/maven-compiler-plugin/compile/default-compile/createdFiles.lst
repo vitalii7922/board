@@ -1,5 +1,8 @@
-com\tsystems\javaschool\util\Resources.class
-com\tsystems\javaschool\model\Member.class
-com\tsystems\javaschool\service\MemberRegistration.class
-com\tsystems\javaschool\data\MemberListProducer.class
-com\tsystems\javaschool\data\MemberRepository.class
+com\tsystems\javaschool\data\ScheduleBean.class
+com\tsystems\javaschool\receiver\Listener.class
+com\tsystems\javaschool\receiver\Receiver.class
+com\tsystems\javaschool\dto\ScheduleDto.class
+com\tsystems\javaschool\service\StationService.class
+com\tsystems\javaschool\dto\StationDto.class
+com\tsystems\javaschool\service\ScheduleService.class
+com\tsystems\javaschool\data\StationBean.class

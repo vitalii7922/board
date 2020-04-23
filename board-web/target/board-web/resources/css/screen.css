@@ -42,6 +42,7 @@ body {
   float: left;
   width: 500px;
   margin: 20px;
+  alignment: center;
 }
 #aside {
   font-size: 0.9em;

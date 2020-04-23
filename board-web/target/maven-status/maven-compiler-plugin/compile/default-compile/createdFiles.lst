@@ -1,4 +1,2 @@
-com\tsystems\javaschool\rest\MemberResourceRESTService.class
-com\tsystems\javaschool\controller\MemberController.class
 com\tsystems\javaschool\rest\JaxRsActivator.class
 com\tsystems\javaschool\util\WebResources.class

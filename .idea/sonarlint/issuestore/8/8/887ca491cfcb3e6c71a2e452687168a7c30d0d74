@@ -1,5 +1,0 @@
-
-j
-java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Éò’Â
-V
-java:S3252"BUse static access with "javax.jms.Session" for "AUTO_ACKNOWLEDGE".(àí¬á

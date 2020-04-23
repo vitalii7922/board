@@ -13,6 +13,11 @@
             <set />
           </value>
         </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$APPLICATION_CONFIG_DIR$/consoles/db/1027f326-8fb2-42b5-8762-3369f015d30a/console.sql">
           <value>
             <set />
@@ -63,7 +68,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/data/SchBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/data/ScheduleBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/data/ScheduleDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/data/StationBean.java">
           <value>
             <set />
           </value>
@@ -83,6 +103,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/dto/StationDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/dto/TrainDto.java">
           <value>
             <set />
@@ -98,12 +123,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/receiver/Listener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/receiver/Receiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/sender/Receiver.java">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/service/ScheduleController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/service/ScheduleService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-ejb/src/main/java/com/tsystems/javaschool/service/StationService.java">
           <value>
             <set />
           </value>
@@ -114,6 +159,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/board-ejb/src/main/resources/META-INF/persistence.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-web/pom.xml">
           <value>
             <set />
           </value>
@@ -143,7 +193,92 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/board-web/src/main/webapp/WEB-INF/faces-config.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-web/src/main/webapp/WEB-INF/hello.xhtml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-web/src/main/webapp/WEB-INF/templates/default.xhtml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-web/src/main/webapp/WEB-INF/web.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-web/src/main/webapp/hello.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-web/src/main/webapp/hello.xhtml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-web/src/main/webapp/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-web/src/main/webapp/index.xhtml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/board-web/src/main/webapp/resources/css/screen.css">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/web/index.xhtml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../electronic-board/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../electronic-board/electronic-board-ear/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../electronic-board/electronic-board-ejb/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../electronic-board/electronic-board-ejb/src/main/java/com/tsystems/javaschool/model/Member.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../electronic-board/electronic-board-ejb/src/main/java/com/tsystems/javaschool/receiver/Listener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../electronic-board/electronic-board-ejb/src/main/java/com/tsystems/javaschool/receiver/Receiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../electronic-board/electronic-board-web/src/main/webapp/WEB-INF/templates/default.xhtml">
           <value>
             <set />
           </value>
@@ -153,7 +288,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/converter/PassengerConverter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/converter/ScheduleConverter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/converter/StationConverte.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/converter/StationConverter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/converter/TicketConverter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/converter/TimeConverter.java">
           <value>
             <set />
           </value>
@@ -203,7 +363,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/dto/StationDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/dto/TrainDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/model/Station.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/rest/ScheduleRestController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/com/tsystems/project/rest/StationRestController.java">
           <value>
             <set />
           </value>
@@ -323,6 +503,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/java/rest/ScheduleRestController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/resources/META-INF/persistence.xml">
           <value>
             <set />
@@ -349,6 +534,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/webapp/index.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../railway reservation system/RRS/rrs/src/main/webapp/menu.jsp">
           <value>
             <set />
           </value>
