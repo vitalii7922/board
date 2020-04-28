@@ -69,12 +69,12 @@
     <dependencyManagement>
         <dependencies>
 
-            <dependency>
+          <!--  <dependency>
                 <groupId>org.wildfly</groupId>
                 <artifactId>wildfly-jms-client-bom</artifactId>
                 <version>10.0.0.Final</version>
                 <type>pom</type>
-            </dependency>
+            </dependency>-->
 
             <!-- Define the version of the EJB jar so that we don't need 
                 to repeat ourselves in every module -->

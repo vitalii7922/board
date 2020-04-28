@@ -6,12 +6,13 @@ import com.tsystems.javaschool.dto.StationDto;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.Serializable;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Arrays;
 import java.util.List;
 
-public class StationService {
+public class StationService implements Serializable {
 
     private List<StationDto> stationDtoList;
 

@@ -22,5 +22,4 @@ public class StationDto implements Serializable {
     public void setName(String name) {
         this.name = name;
     }
-
 }

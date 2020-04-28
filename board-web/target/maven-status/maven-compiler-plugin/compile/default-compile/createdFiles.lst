@@ -1,2 +1,4 @@
+com\tsystems\javaschool\receiver\Listener.class
+com\tsystems\javaschool\receiver\Receiver.class
 com\tsystems\javaschool\rest\JaxRsActivator.class
 com\tsystems\javaschool\util\WebResources.class

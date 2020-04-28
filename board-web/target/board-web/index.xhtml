@@ -8,18 +8,29 @@
       <h:panelGroup rendered="#{empty stationBean.stations}">
          <em>No stations</em>
       </h:panelGroup>
+    <h:form>
+        <h:commandButton value="Receiver" action="#{receiver.receive}"/>
+    </h:form>
+    <h:form id="foo">
+<!--    <h:panelGroup id="foo">-->
       <h:dataTable var="_station" value="#{stationBean.stations}" rendered="#{not empty stationBean.stations}" styleClass="simpletablestyle">
          <h:column>
             <f:facet name="header">Station name</f:facet>
             #{_station.name}
          </h:column>
          <h:column>
-            <h:form name="header">
+<!--            <h:form name="header">-->
             <h:commandButton value="Schedule" action="#{scheduleBean.view}" actionListener="#{scheduleBean.setSchedules(_station.id)}">
                </h:commandButton>
-            </h:form>
+<!--            </h:form>-->
          </h:column>
       </h:dataTable>
-        <f:websocket channel="someChannel" onmessage="onMessage"/>
+<!--    </h:panelGroup>-->
+    </h:form>
+    <h:form>
+        <f:websocket channel="someChannel" scope="view">
+            <f:ajax event="someMessage" listener="#{stationBean.processAjaxBehavior}" render=":foo" />
+        </f:websocket>
+    </h:form>
 </h:body>
 </html>
