@@ -1,0 +1,12 @@
+
+s
+java:S1149-"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Éò’Â8°¾ÿâœ.
+Ì
+java:S53016"®Secure this "ActiveMQConnectionFactory" by whitelisting the trusted packages using the "setTrustedPackages" method and make sure the "setTrustAllPackages" is not set to true.(Ñ©˜ç8°¾ÿâœ.
+Z	java:S106I"9Replace this use of System.out or System.err by a logger.(ëâëÂúÿÿÿÿ8°¾ÿâœ.
+Z	java:S106F"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8°¾ÿâœ.
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(¾åªşøÿÿÿÿ8°¾ÿâœ.
+U	java:S106Q"9Replace this use of System.out or System.err by a logger.(¶Üèò8è—¸ãœ.
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8°¾ÿâœ.
+U	java:S106H"9Replace this use of System.out or System.err by a logger.(¯©·8°¾ÿâœ.
+U	java:S106?"9Replace this use of System.out or System.err by a logger.(œ‡Ø8¥Ú«äœ.

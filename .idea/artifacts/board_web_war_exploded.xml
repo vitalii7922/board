@@ -18,6 +18,8 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.8" />
           <element id="library" level="project" name="Maven: org.primefaces:primefaces:6.2" />
+          <element id="library" level="project" name="Maven: org.apache.activemq:activemq-all:5.15.3" />
+          <element id="library" level="project" name="Maven: javax.jms:javax.jms-api:2.0.1" />
           <element id="library" level="project" name="Maven: org.apache.myfaces.core:myfaces-api:2.3.6" />
         </element>
       </element>

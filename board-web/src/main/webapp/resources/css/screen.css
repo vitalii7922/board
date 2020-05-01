@@ -125,6 +125,11 @@ input {
   margin-left: 85px;
 }
 
+.list_stations {
+  margin-left: 40%;
+  text-align: center;
+}
+
 /*  -----  table style  -------  */
 
 
@@ -134,7 +139,19 @@ input {
   background-color:#E6E7E8;
   clear:both;
   width: 550px;
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 10px;
+  font-size: 150%;
 }
+
+.head {
+   font-size: 200%;
+   font-weight: bold;
+   /*margin-left: 45%;*/
+   margin-top: 5%;
+   /*text-align: center;*/
+ }
 
 .simpletablestyle img {
   border:0px;
@@ -158,10 +175,10 @@ input {
 .simpletablestyle thead {
   background: url(#{request.contextPath}/resources/gfx/bkg-blkheader.png) black repeat-x top left;
   height:31px;
-  font-size:10px;
+  font-size:130%;
   font-weight:bold;
   color:#FFFFFF;
-  text-align:left;
+  text-align:center;
 }
 
 .simpletablestyle .header a {
@@ -169,12 +186,13 @@ input {
 }
 
 .simpletablestype tfoot {
-	height: 20px;
-  font-size: 10px;
+  height: 20px;
+  font-size: 140%;
   font-weight: bold;
   background-color: #EAECEE;
   text-align: center;
 }
+
 
 .simpletablestyle tr.header td {
   padding: 0px 10px 0px 5px;
@@ -183,7 +201,7 @@ input {
 
 .simpletablestyle .subheader {
   background-color: #e6e7e8;
-  font-size:10px;
+  font-size:130%;
   font-weight:bold;
   color:#000000;
   text-align:left;

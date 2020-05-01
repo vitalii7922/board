@@ -2,7 +2,10 @@ package com.tsystems.javaschool.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.tsystems.javaschool.dto.ScheduleDto;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 
+import javax.inject.Inject;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -14,23 +17,26 @@ import java.util.List;
 
 public class ScheduleService {
 
+    @Inject
+    Service service;
+
     private List<ScheduleDto> scheduleDtoList;
+
+    private static final Log log = LogFactory.getLog(ScheduleService.class);
 
     public List<ScheduleDto> retrieveSchedules(String id) {
         try {
             URL url = new URL("http://localhost:8181/schedules/" + id);
-            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-            conn.setRequestMethod("GET");
-            conn.setRequestProperty("Accept", "application/json");
+            HttpURLConnection conn = service.initConnection(url);
             BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream())));
-            String output = br.readLine();
+            String scheduleListJson = br.readLine();
             ObjectMapper mapper = new ObjectMapper();
-            if (output != null) {
-                scheduleDtoList = Arrays.asList(mapper.readValue(output, ScheduleDto[].class));
+            if (scheduleListJson != null) {
+                scheduleDtoList = Arrays.asList(mapper.readValue(scheduleListJson, ScheduleDto[].class));
             }
             conn.disconnect();
         } catch (IOException e) {
-            e.printStackTrace();
+            log.error(e.getCause());
         }
         return scheduleDtoList;
     }

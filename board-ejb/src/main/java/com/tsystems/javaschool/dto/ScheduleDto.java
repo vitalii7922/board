@@ -1,8 +1,7 @@
 package com.tsystems.javaschool.dto;
 import java.io.Serializable;
-import java.util.Objects;
 
-public class ScheduleDto implements Serializable, Comparable<ScheduleDto> {
+public class ScheduleDto implements Serializable {
     long id;
 
     long trainId;
@@ -61,23 +60,5 @@ public class ScheduleDto implements Serializable, Comparable<ScheduleDto> {
 
     public void setId(long id) {
         this.id = id;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof ScheduleDto)) return false;
-        ScheduleDto that = (ScheduleDto) o;
-        return getTrainNumber() == that.getTrainNumber();
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(getTrainNumber());
-    }
-
-    @Override
-    public int compareTo(ScheduleDto o) {
-        return trainNumber - o.getTrainNumber();
     }
 }

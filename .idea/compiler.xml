@@ -15,7 +15,7 @@
       <module name="board" target="1.7" />
       <module name="board-ear" target="1.7" />
       <module name="board-ejb" target="8" />
-      <module name="board-web" target="1.7" />
+      <module name="board-web" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

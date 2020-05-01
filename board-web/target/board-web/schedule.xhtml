@@ -1,26 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ui:composition xmlns="http://www.w3.org/1999/xhtml"
-                xmlns:ui="http://java.sun.com/jsf/facelets"
-                xmlns:f="http://java.sun.com/jsf/core"
-                xmlns:h="http://java.sun.com/jsf/html"
-                template="/WEB-INF/templates/default.xhtml">
-    <ui:define name="content">
-        <h:panelGroup rendered="#{empty scheduleBean.schedules} ">
-            <em>No trains</em>
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+<h:head>
+    <title>Board</title>
+    <script>
+        function onMessage() {
+            window.location.reload();
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="resources/css/screen.css"/>
+</h:head>
+<h:body>
+    <div style="text-align:center;">
+        <h:panelGroup styleClass="head">
+            <h:outputText value="#{scheduleBean.stationName}"/>
         </h:panelGroup>
-        <h:dataTable var="_schedule" value="#{scheduleBean.schedules}" rendered="#{not empty scheduleBean.schedules}" styleClass="simpletablestyle">
-            <h:column>
-                <f:facet name="header">Train number</f:facet>
-                #{_schedule.trainNumber}
-            </h:column>
-            <h:column>
-                <f:facet name="header">Arrival time</f:facet>
-                #{_schedule.arrivalTime}
-            </h:column>
-            <h:column>
-                <f:facet name="header">Departure time</f:facet>
-                #{_schedule.departureTime}
-            </h:column>
-        </h:dataTable>
-    </ui:define>
-</ui:composition>
+    </div>
+    <div style="text-align:center; font-size: 100%">
+    <h:panelGroup rendered="#{empty scheduleBean.schedules}">
+        <em>No trains</em>
+    </h:panelGroup>
+    </div>
+    <div style="align-content:center;">
+    <h:dataTable var="_schedule" value="#{scheduleBean.schedules}" rendered="#{not empty scheduleBean.schedules}"
+                 styleClass="simpletablestyle">
+        <h:column>
+            <f:facet name="header">Train number</f:facet>
+            #{_schedule.trainNumber}
+        </h:column>
+        <h:column>
+            <f:facet name="header">Arrival time</f:facet>
+            #{_schedule.arrivalTime}
+        </h:column>
+        <h:column>
+            <f:facet name="header">Departure time</f:facet>
+            #{_schedule.departureTime}
+        </h:column>
+    </h:dataTable>
+    </div>
+    <f:websocket channel="scheduleChannel" onmessage="onMessage"/>
+</h:body>
+</html>

@@ -1,0 +1,14 @@
+
+F
+java:S1128"0Remove this unused import 'javax.inject.Inject'.(ì–íÔ
+O
+java:S1128	"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ
+T
+java:S1128"9Remove this unused import 'javax.faces.push.PushContext'.(×•©ùÿÿÿÿ
+H
+java:S1128"2Remove this unused import 'javax.faces.push.Push'.(É¨ô
+J
+java:S1128
+"4Remove this unused import 'java.util.logging.Level'.(…µÛ¶
+B
+java:S1068"'Remove this unused "LOG" private field.(å¹ıÿÿÿÿ
