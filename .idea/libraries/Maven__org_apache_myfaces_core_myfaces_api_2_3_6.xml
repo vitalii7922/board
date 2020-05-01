@@ -2,9 +2,12 @@
   <library name="Maven: org.apache.myfaces.core:myfaces-api:2.3.6">
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/org/apache/myfaces/core/myfaces-api/2.3.6/myfaces-api-2.3.6.jar!/" />
-      <root url="jar://C:/apache-activemq-5.15.12/activemq-all-5.15.12.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/myfaces/core/myfaces-api/2.3.6/myfaces-api-2.3.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/myfaces/core/myfaces-api/2.3.6/myfaces-api-2.3.6-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
