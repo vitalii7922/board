@@ -14,7 +14,9 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Arrays;
 import java.util.List;
-
+/**
+ * author Vitalii Nefedov
+ */
 public class StationService implements Serializable {
 
     private List<StationDto> stationList;
@@ -24,6 +26,11 @@ public class StationService implements Serializable {
 
     private static final Log log = LogFactory.getLog(StationService.class);
 
+    /**
+     * get list of station by specified url
+     *
+     * @return list of stationDto
+     */
     public List<StationDto> retrieveStations() {
         try {
             URL url = new URL("http://localhost:8181/stations");

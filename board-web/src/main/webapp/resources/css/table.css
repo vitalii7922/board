@@ -1,0 +1,18 @@
+.simpletablestyle {
+    clear:both;
+    width: 450px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 110%;
+}
+
+.head {
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 5%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

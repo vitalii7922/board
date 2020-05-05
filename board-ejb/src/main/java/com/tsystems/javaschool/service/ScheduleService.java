@@ -14,7 +14,9 @@ import java.net.URL;
 import java.util.Arrays;
 import java.util.List;
 
-
+/**
+ * author Vitalii Nefedov
+ */
 public class ScheduleService {
 
     @Inject
@@ -24,6 +26,11 @@ public class ScheduleService {
 
     private static final Log log = LogFactory.getLog(ScheduleService.class);
 
+    /**
+     *
+     * @param id station id
+     * @return list of schedule dto by specified url
+     */
     public List<ScheduleDto> retrieveSchedules(String id) {
         try {
             URL url = new URL("http://localhost:8181/schedules/" + id);

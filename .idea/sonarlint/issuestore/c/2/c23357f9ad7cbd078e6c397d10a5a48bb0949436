@@ -1,0 +1,7 @@
+
+b
+java:S1128"GRemove this unused import 'javax.enterprise.context.ApplicationScoped'.(—ò¸ì8Åë‘.
+[	java:S125"<This block of commented-out lines of code should be removed.(¤¹¹ùÿÿÿÿ8Åë‘.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8Åë‘.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(ÄĞƒàşÿÿÿÿ8Åë‘.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(ëâëÂúÿÿÿÿ8Åë‘.

@@ -1,7 +1,8 @@
 package com.tsystems.javaschool.dto;
-
 import java.io.Serializable;
-
+/**
+ * author Vitalii Nefedov
+ */
 public class StationDto implements Serializable {
     private long id;
 

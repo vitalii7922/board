@@ -1,6 +1,8 @@
 package com.tsystems.javaschool.dto;
 import java.io.Serializable;
-
+/**
+ * author Vitalii Nefedov
+ */
 public class ScheduleDto implements Serializable {
     long id;
 

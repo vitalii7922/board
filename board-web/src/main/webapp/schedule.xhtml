@@ -19,13 +19,13 @@
             <h:outputText value="#{scheduleBean.stationName}"/>
         </h:panelGroup>
     </div>
-    <div style="text-align:center; font-size: 100%">
+    <div style="text-align:center; font-size: 200%">
     <h:panelGroup rendered="#{empty scheduleBean.schedules}">
         <em>No trains</em>
     </h:panelGroup>
     </div>
-    <div style="align-content:center;">
-    <h:dataTable var="_schedule" value="#{scheduleBean.schedules}" rendered="#{not empty scheduleBean.schedules}"
+    <div>
+    <h:dataTable style="margin-right: auto; margin-left: auto" var="_schedule" value="#{scheduleBean.schedules}" rendered="#{not empty scheduleBean.schedules}"
                  styleClass="simpletablestyle">
         <h:column>
             <f:facet name="header">Train number</f:facet>

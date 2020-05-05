@@ -4,33 +4,38 @@
       xmlns="http://www.w3.org/1999/xhtml"
       xmlns:f="http://xmlns.jcp.org/jsf/core"
       xmlns:h="http://xmlns.jcp.org/jsf/html">
+<h:head>
+    <title>Board</title>
+    <script>
+        function onMessage() {
+            window.location.reload();
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="resources/css/table.css"/>
+</h:head>
 <h:body>
-      <h:panelGroup rendered="#{empty stationBean.stations}">
-         <em>No stations</em>
-      </h:panelGroup>
-    <h:form>
-        <h:commandButton value="Receiver" action="#{receiver.receive}"/>
+    <div style="text-align:center;">
+        <h:panelGroup styleClass="head">
+            <h:outputText value="List of stations"/>
+        </h:panelGroup>
+    </div>
+    <h:panelGroup rendered="#{empty stationsBean.stationDtoList}">
+        <em>No stations</em>
+    </h:panelGroup>
+    <h:form style="margin-right: auto; margin-left: auto">
+        <h:dataTable var="_station" value="#{stationsBean.stationDtoList}"
+                     rendered="#{not empty stationsBean.stationDtoList}" styleClass="simpletablestyle">
+            <h:column>
+                <f:facet name="header">Station name</f:facet>
+                #{_station.name}
+            </h:column>
+            <h:column>
+                <h:commandButton value="Schedule" action="#{scheduleBean.view}"
+                                 actionListener="#{scheduleBean.setSchedules(_station.id, _station.name)}">
+                </h:commandButton>
+            </h:column>
+        </h:dataTable>
     </h:form>
-    <h:form id="foo">
-<!--    <h:panelGroup id="foo">-->
-      <h:dataTable var="_station" value="#{stationBean.stations}" rendered="#{not empty stationBean.stations}" styleClass="simpletablestyle">
-         <h:column>
-            <f:facet name="header">Station name</f:facet>
-            #{_station.name}
-         </h:column>
-         <h:column>
-<!--            <h:form name="header">-->
-            <h:commandButton value="Schedule" action="#{scheduleBean.view}" actionListener="#{scheduleBean.setSchedules(_station.id)}">
-               </h:commandButton>
-<!--            </h:form>-->
-         </h:column>
-      </h:dataTable>
-<!--    </h:panelGroup>-->
-    </h:form>
-    <h:form>
-        <f:websocket channel="someChannel" scope="view">
-            <f:ajax event="someMessage" listener="#{stationBean.processAjaxBehavior}" render=":foo" />
-        </f:websocket>
-    </h:form>
+    <f:websocket channel="stationChannel" onmessage="onMessage"/>
 </h:body>
 </html>
