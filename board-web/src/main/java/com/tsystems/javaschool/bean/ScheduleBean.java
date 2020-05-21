@@ -5,6 +5,7 @@ import com.tsystems.javaschool.receiver.Receiver;
 import com.tsystems.javaschool.service.ScheduleService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
 import javax.faces.push.Push;
@@ -13,6 +14,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 import javax.jms.*;
 import java.util.List;
+
 /**
  * author Vitalii Nefedov
  */
@@ -107,7 +109,7 @@ public class ScheduleBean {
     /**
      * initialize station id, station name and scheduleDtoList
      *
-     * @param stationId station id
+     * @param stationId   station id
      * @param stationName station name
      */
     public void setSchedules(String stationId, String stationName) {

@@ -19,20 +19,24 @@
             <h:outputText value="List of stations"/>
         </h:panelGroup>
     </div>
-      <h:panelGroup rendered="#{empty stationsBean.stationDtoList}">
-         <em>No stations</em>
-      </h:panelGroup>
+    <div style="text-align:center; font-size: 200%">
+    <h:panelGroup rendered="#{empty stationsBean.stationDtoList}">
+        <em>No stations</em>
+    </h:panelGroup>
+    </div>
     <h:form style="margin-right: auto; margin-left: auto">
-      <h:dataTable var="_station" value="#{stationsBean.stationDtoList}" rendered="#{not empty stationsBean.stationDtoList}" styleClass="simpletablestyle">
-         <h:column>
-            <f:facet name="header">Station name</f:facet>
-            #{_station.name}
-         </h:column>
-         <h:column>
-            <h:commandButton value="Schedule" action="#{scheduleBean.view}" actionListener="#{scheduleBean.setSchedules(_station.id, _station.name)}">
-               </h:commandButton>
-         </h:column>
-      </h:dataTable>
+        <h:dataTable var="_station" value="#{stationsBean.stationDtoList}"
+                     rendered="#{not empty stationsBean.stationDtoList}" styleClass="simpletablestyle">
+            <h:column>
+                <f:facet name="header">Station name</f:facet>
+                #{_station.name}
+            </h:column>
+            <h:column>
+                <h:commandButton value="Schedule" action="#{scheduleBean.view}"
+                                 actionListener="#{scheduleBean.setSchedules(_station.id, _station.name)}">
+                </h:commandButton>
+            </h:column>
+        </h:dataTable>
     </h:form>
     <f:websocket channel="stationChannel" onmessage="onMessage"/>
 </h:body>

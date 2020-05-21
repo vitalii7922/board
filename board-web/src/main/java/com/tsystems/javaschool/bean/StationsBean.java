@@ -1,5 +1,4 @@
 package com.tsystems.javaschool.bean;
-
 import com.tsystems.javaschool.dto.StationDto;
 import com.tsystems.javaschool.receiver.Receiver;
 import com.tsystems.javaschool.service.StationService;
@@ -13,6 +12,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 import javax.jms.*;
 import java.util.List;
+
 /**
  * author Vitalii Nefedov
  */

@@ -19,9 +19,11 @@
             <h:outputText value="List of stations"/>
         </h:panelGroup>
     </div>
+    <div style="text-align:center; font-size: 200%">
     <h:panelGroup rendered="#{empty stationsBean.stationDtoList}">
         <em>No stations</em>
     </h:panelGroup>
+    </div>
     <h:form style="margin-right: auto; margin-left: auto">
         <h:dataTable var="_station" value="#{stationsBean.stationDtoList}"
                      rendered="#{not empty stationsBean.stationDtoList}" styleClass="simpletablestyle">

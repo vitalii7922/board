@@ -65,8 +65,6 @@ G
 board-ejb/board-ejb.iml,b\0\b0e25de1230a4191108d2a508286fe5464d0bc91
 v
 Fboard-web/src/main/java/com/tsystems/javaschool/bean/ScheduleBean.java,c\e\cea883e21b67cbccedd07cfda5a04886ac2e78d4
-u
-Eboard-web/src/main/java/com/tsystems/javaschool/bean/StationBean.java,8\3\83be04a3a68c53177a2558cc010390115ae1215d
 _
 /board-web/target/board-web/META-INF/MANIFEST.MF,c\8\c8b78bcd9f98e2319467ba1d4aa8dd7d1eb3a83c
 c
@@ -86,6 +84,14 @@ Y
 t
 D.idea/libraries/Maven__org_apache_myfaces_core_myfaces_api_2_3_6.xml,5\4\54560e265b5a74444d51d5774c8faee8e0e1f5af
 v
-Fboard-web/src/main/java/com/tsystems/javaschool/receiver/Listener.java,4\f\4f667216a7d49a2334acb8f75df3a9dbfeab0682
-v
 Fboard-web/src/main/java/com/tsystems/javaschool/receiver/Receiver.java,c\2\c23357f9ad7cbd078e6c397d10a5a48bb0949436
+d
+4board-ear/src/main/application/META-INF/board-ds.xml,9\9\998df2ffc38ae2f0b81172dbb95b550c3b26e8ca
+\
+,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
+v
+Fboard-web/src/main/java/com/tsystems/javaschool/bean/StationsBean.java,4\1\41e9798989e132050ff3958c9ac3781c58fdde93
+a
+1board-web/src/main/webapp/resources/css/table.css,c\2\c2d45dab9eadd7acf17fae90edb003eb02af536d
+b
+2board-web/target/board-web/resources/css/table.css,e\e\ee836bc3c872e8cc6eeaf4cb943e2c01f9b0ce73

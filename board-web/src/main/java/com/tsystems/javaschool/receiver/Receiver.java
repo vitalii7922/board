@@ -31,7 +31,7 @@ public class Receiver {
             con.start();
             QueueSession ses = con.createQueueSession(false, Session.AUTO_ACKNOWLEDGE);
             Queue t = (Queue) ctx.lookup("js-queue");
-             receiver = ses.createReceiver(t);
+            receiver = ses.createReceiver(t);
         } catch (Exception e) {
             log.info(e.getCause());
         }
