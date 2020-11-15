@@ -1,13 +1,10 @@
 Board
-==============================================================================================
-
-What is it?
------------
+------------------------
 This application shows a timetable of trains on a chosen station.
 It is connected with project https://github.com/vitalii7922/railway-reservation-system. When timetable is updated on
 any station __Railway reservation system__ sends message via JMS to __board__ application. __Board__ application 
 sends a request to http://localhost:8181/stations/{id} (where id is station id) and refreshes a web page with timetable.
--------------------
+
 Configure Maven
 ---------------
 
